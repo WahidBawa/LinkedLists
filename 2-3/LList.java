@@ -1,10 +1,10 @@
 /*
+	Question 2 and 3
 	Creator: Wahid Bawa
 	Purpose: To create a doubly linked list
 			 Adds multiple delete methods
 			 Adds enqueue and dequeue 
 */
-
 public class LList {
 	private LNode head, tail;
 
@@ -43,7 +43,6 @@ public class LList {
 		head.setPrev(null);
 		return tmp.getVal();
 	}
-
 	private void delete(LNode node) { // used for deleting within the class
 		if (node == head) { // this is the case for removing head
 			head = node.getNext();
@@ -58,7 +57,6 @@ public class LList {
 			node.getPrev().setNext(node.getNext());
 		}
 	}
-
 	public void delete(int val) { // loops through all nodes until "val" is found. Then calls the private delete method to get rid of it
 		LNode tmp = head;
 		while (tmp != null) {
@@ -69,7 +67,6 @@ public class LList {
 			tmp = tmp.getNext();
 		}
 	}
-
 	public void deleteAt(int index) { // loops through nodes until "index" is reached. then calls the private delete method
 		int i = 0;
 		LNode tmp = head;

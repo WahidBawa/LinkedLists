@@ -1,4 +1,5 @@
 /*
+	Question 6
 	Creator: Wahid Bawa
 	Purpose: To add a reverse method which would reverse the contents of a linked list
 */

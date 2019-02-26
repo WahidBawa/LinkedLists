@@ -1,5 +1,9 @@
-
-public class LTest {
+/*
+	Question 6
+	Creator: Wahid Bawa
+	Purpose: To test the new methods that are added in
+*/
+public class Main {
 	public static void main(String[] args) {
 		LList list = new LList();
 		list.add(6);
